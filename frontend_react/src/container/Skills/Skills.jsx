@@ -86,4 +86,12 @@ const Skills = () => {
   )
 }
 
+<<<<<<< HEAD
 export default AppWrap(Skills, 'skills')
+=======
+export default AppWrap(
+  MotionWrap(Skills, 'app__skills'),
+  'skills',
+  'app__whitebg'
+);
+>>>>>>> 42640bda96f800425868bd34ff4842a08d75a26c
